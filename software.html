@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Your description goes here" />
+	<meta name="keywords" content="your,keywords,goes,here" />
+	<meta name="author" content="Your Name" />
+	<link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" type="text/css" href="origo.css" title="Origo" media="all" />
+	<title>Wang Lab</title>
+</head>
+
+<body class="light blue smaller freestyle01">
+<div id="layout">
+ 
+	<div class="row smaller">
+		<div class="col c5 smaller">
+			<h1><a href="index.html">WANG LAB</a></h1> <h3>@ <a href="http://www.a-star.edu.sg/gis">Genome Institute of Singapore</a></h3>
+		</div>
+		
+		<div class="col c7 aligncenter">
+			<p class="slogan">Statistical Genetics and Population Genetics</p>
+		</div>
+	</div>
+  
+	<div class="row">
+		<div class="col c12 aligncenter">
+			<img src="images/Singapore_skyline.jpg" width="960" height="240" alt="" />
+		</div>
+	</div>
+ 
+	<div class="row">
+		<div class="col c2 alignleft">
+			<ul class="menu">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="research.html">Research</a></li>
+				<li><a href="publications.html">Publications</a></li>
+				<li><a class="current" href="software.html">Software</a>
+				<li><a href="people.html">People</a></li>
+				<li><a href="jobs.html">Join us</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+ 
+		<div class="col c10">
+			 <h2>LASER</h2>
+				LASER stands for "Locating Ancestry from SEquence Reads". This package include two C++ programs, <i>laser</i> and <i>trace</i>, for 
+				estimating individual ancestry in a reference ancestry space using either shortgun sequence reads (<i>laser</i>) or genotype data (<i>trace</i>). 
+				Both programs were implemented under a unified framework based on principal components analysis (PCA) and projection Procrustes analysis.
+				Given a shared reference panel, <i>laser</i> and <i>trace</i> can place sequenced and genotyped samples into the same ancestry space.<br><br>
+
+				LASER can also perform standard PCA on genotype data to explore population structure and to create the reference ancestry space. 
+				Different options to compute PC scores and PC loadings have been implemented in the LASER program (version 2.01 or later). <br><br>
+				
+				The LASER program and a detailed manual can be downloaded 
+				<a href="http://www.sph.umich.edu/csg/chaolong/LASER/" target="_blank">here</a>. <br><br>
+				<b>Citation for LASER: </b><br><br>
+					<li>C Wang, X Zhan, J Bragg-Gresham, HM Kang, D Stambolian, E Chew, K Branham, J Heckenlively, 
+					The FUSION Study, RS Fulton, RK Wilson, ER Mardis, X Lin, A Swaroop, S Z&ouml;llner, GR Abecasis (2014). 
+					Ancestry estimation and control of population stratification for sequence-based association studies. 
+					<b>Nature Genetics</b>, 46: 409-415.
+					[<a href="http://www.nature.com/ng/journal/v46/n4/full/ng.2924.html" target="_blank">link</a>]</li><br>
+					
+					<li>C Wang, X Zhan, L Liang, GR Abecasis, X Lin (2015). 
+					Improved ancestry estimation for both genotyping and sequencing data using projection Procrustes analysis and genotype imputation. 
+					<b>American Journal of Human Genetics</b>, in press.</li><br><br>
+			<h2>MicroDrop</h2>
+					MicroDrop is a C++ program for estimating and correcting for allelic dropout in microsatellite data when replicated genotypes are 
+					not available. Based on an allele frequency model, the program implements an expectation-maximization algorithm to search for 
+					maximum-likelihood estimates of the allele frequencies, sample-specific and locus-specific dropout rates, and an inbreeding coefficient.
+					With the estimated parameter values, an empirical Bayesian strategy is used to prepare multiple imputed data sets to circumvent allelic 
+					dropout in downstream data analyses. <br><br>
+					The MicroDrop program and a detailed manual can be downloaded 
+					<a href="http://rosenberglab.stanford.edu/microdrop.html" target="_blank">here</a>. <br><br>
+					<b>Citation for MicroDrop: </b><br><br>
+					<li>C Wang, KB Schroeder, NA Rosenberg (2012). 
+					A maximum-likelihood method to correct for allelic dropout in microsatellite data with no replicate genotypes. 
+					<b>Genetics</b> 192: 651-669. 
+					[<a href="http://www.genetics.org/content/192/2/651" target="_blank">link</a>] </li><br>	
+		</div>
+	</div>
+ 
+	<div id="footer" class="row">
+		<div class="col c12 aligncenter">
+			<h3>&copy; 2015 Chaolong Wang</h3>
+			<p><a href="http://andreasviklund.com/dt_portfolio/origo/">Template design</a> by <a href="http://andreasviklund.com/">Andreas Viklund</a><br />
+		</div>
+	</div>
+ </div>
+</body>
+</html>
