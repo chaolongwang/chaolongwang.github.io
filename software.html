@@ -46,6 +46,23 @@
 		</div>
  
 		<div class="col c10">
+			 <h2>GMMAT</h2>
+				GMMAT stands for "Generalized linear Mixed Model Association Test". This is an R package to perform association tests based 
+				on generalized linear mixed models (i.e. modelling outcomes with the exponential family distributions). The package implemented
+				a series of algorithms to improve the computational speed so that it is efficient to perform genome-wide scan in large-scale 
+				genetic studies (e.g. case-control disease studies). GMMAT is useful to control for family relatedness, population structure 
+				and complex study design in genome-wide association studies.
+				<a href="http://www.hsph.harvard.edu/han-chen/" target="_blank">Dr. Han Chen</a> 
+				is the leading developer of this R package. <br><br>
+				
+				The GMMAT R package and manual can be downloaded 
+				<a href="http://www.hsph.harvard.edu/xlin/software.html#gmmat" target="_blank">here</a>. <br><br>
+				<b>Citation for GMMAT: </b><br><br>
+					<li>H Chen*, C Wang*, MP Conomos, AM Stilp, Z Li, T Sofer, AA Szpiro, W Chen, JM Brehm, JC Celedon,
+					SS Redline, GJ Papanicolaou, TA Thornton, CC Laurie, K Rice, X Lin (2016). 
+					Control for population structure and relatedness for binary traits in genetic association studies using logistic mixed models.
+					<b>American Journal of Human Genetics</b>, in press.
+					[<a href="#" target="_blank">link</a>]</li><br>		
 			 <h2>LASER</h2>
 				LASER stands for "Locating Ancestry from SEquence Reads". This package include two C++ programs, <i>laser</i> and <i>trace</i>, for 
 				estimating individual ancestry in a reference ancestry space using either shortgun sequence reads (<i>laser</i>) or genotype data (<i>trace</i>). 
@@ -57,8 +74,9 @@
 				
 				The LASER program and a detailed manual can be downloaded 
 				<a href="http://www.sph.umich.edu/csg/chaolong/LASER/" target="_blank">here</a>. <br><br>
+				
 				<b>Citation for LASER: </b><br><br>
-					<li>C Wang, X Zhan, J Bragg-Gresham, HM Kang, D Stambolian, E Chew, K Branham, J Heckenlively, 
+					<li>C Wang*, X Zhan*, J Bragg-Gresham, HM Kang, D Stambolian, E Chew, K Branham, J Heckenlively, 
 					The FUSION Study, RS Fulton, RK Wilson, ER Mardis, X Lin, A Swaroop, S Z&ouml;llner, GR Abecasis (2014). 
 					Ancestry estimation and control of population stratification for sequence-based association studies. 
 					<b>Nature Genetics</b>, 46: 409-415.
@@ -68,6 +86,12 @@
 					Improved ancestry estimation for both genotyping and sequencing data using projection Procrustes analysis and genotype imputation. 
 					<b>American Journal of Human Genetics</b>, 96: 926-937.
 					[<a href="http://www.cell.com/ajhg/abstract/S0002-9297(15)00155-X" target="_blank">link</a>]</li><br><br>
+			<h2>LASER-Server</h2>
+				We are developing a web-based server for ancestry estimation using either genotyping or sequencing data.
+				The server is based on the LASER algorithm and provides a series of built-in ancestry reference panels 
+				as well as interactive graphical view of the results. <br><br>
+				A prototype is available to test. Please try it <a href="http://laser.sph.umich.edu" target="_blank">here</a>! <br><br>
+				
 			<h2>MicroDrop</h2>
 					MicroDrop is a C++ program for estimating and correcting for allelic dropout in microsatellite data when replicated genotypes are 
 					not available. Based on an allele frequency model, the program implements an expectation-maximization algorithm to search for 
